@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="quiz.css" rel="stylesheet">
+    <title>Quiz Module</title>
+  </head>
+  <body>
+    <div id="top">
+      <h1>Quiz</h1>
+    </div>
+    <div id="anskey">
+      <label>Answer key</label>
+    </div>
+    <div id="container">
+      <div id="Qsec">
+        <div id="question">
+          <p>Question</p>
+        </div>
+        <div id="option">
+          <div><input type="radio" name="option">  <label id="op1"></label></div>
+          <div><input type="radio" name="option">  <label id="op2"></label></div>
+          <div><input type="radio" name="option">  <label id="op3"></label></div>
+          <div><input type="radio" name="option">  <label id="op4"></label></div>
+        </div>
+        <div id="bottom">
+          <div><h3 id="h3"></h3></div>
+          <div>
+            <button id="btnS" onclick="check()">Submit</button>
+          </div>
+        </div>
+      </div>
+      <div id="Ssec">
+      </div>
+    </div>
+    <div id="res">
+      <button id="restart" onclick="restart()">Restart</button>
+    </div>
+    <script src="quiz.js"></script>
+  </body>
+</html>
